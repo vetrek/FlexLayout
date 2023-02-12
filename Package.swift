@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "FlexLayout",
+  name: "FlexLayoutSPM",
   products: [
     .library(name: "FlexLayout", targets: ["FlexLayout"]),
     .library(name: "FlexLayoutYoga", targets: ["FlexLayoutYoga"]),
