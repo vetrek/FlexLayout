@@ -6,9 +6,9 @@ import PackageDescription
 let package = Package(
   name: "FlexLayoutSPM",
   products: [
-    .library(name: "FlexLayout", targets: ["FlexLayout"]),
-    .library(name: "FlexLayoutYoga", targets: ["FlexLayoutYoga"]),
-    .library(name: "FlexLayoutYogaKit", targets: ["FlexLayoutYogaKit"])
+    .library(name: "FlexLayoutSPM", targets: ["FlexLayout"]),
+    .library(name: "FlexLayoutSPMYoga", targets: ["FlexLayoutYoga"]),
+    .library(name: "FlexLayoutSPMYogaKit", targets: ["FlexLayoutYogaKit"])
   ],
   dependencies: [
   ],
